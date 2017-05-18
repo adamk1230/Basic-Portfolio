@@ -25,7 +25,7 @@
 	background-color: #ffffff;
 	position: absolute;
 	bottom: 0;
-	right: 300px;
+	right: 189px;
 }
 
 li{
@@ -39,6 +39,8 @@ li{
 	border-right-style: solid;
 	border-right-width: 1px;
 	border-color: #ddd;
+	border-left-style: solid;
+	border-left-width: 1px;
 
 }
 
@@ -63,16 +65,20 @@ a{
 
 #content{
 
-	position: relative;
+	/*position: relative;*/
 	clear: both;
 	background-image: url(../images/bgimage.png);
 	overflow: auto;
+	border-top-style: solid;
+	border-color: #ddd;
+	border-width: 2px;
 
 }
 
 #container1{
 	/*position: absolute;*/
-	/*left: 5px;*/
+	left: 221px;
+	position: relative;
 	margin: 20px;
 	border-style: solid;
 	border-width: 1px; 
@@ -120,6 +126,8 @@ a{
 }
 
 #container2{
+	position: relative;
+	left: 221px;
 	margin: 20px;
 	border-style: solid;
 	border-width: 1px;
